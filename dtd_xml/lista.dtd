@@ -1,0 +1,25 @@
+<!ELEMENT root (lista, total, cantidad_total)>
+<!ELEMENT lista (item+)>
+<!ELEMENT item (titulo, categoria, producto, descripcion, unidades, precio, marca, costo)>
+<!ATTLIST item
+          categoria CDATA #REQUIRED
+          id CDATA #REQUIRED
+          precio CDATA #REQUIRED
+          titulo CDATA #REQUIRED>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT categoria (etiqueta)>
+<!ATTLIST categoria
+          id CDATA #REQUIRED
+          nombre CDATA #REQUIRED
+          recurso CDATA #REQUIRED>
+<!ELEMENT etiqueta (#PCDATA)>
+<!ELEMENT producto (#PCDATA)>
+<!ATTLIST producto
+          recurso CDATA #REQUIRED>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT unidades (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT marca (#PCDATA)>
+<!ELEMENT costo (#PCDATA)>
+<!ELEMENT total (#PCDATA)>
+<!ELEMENT cantidad_total (#PCDATA)>

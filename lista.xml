@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xsl/lista.xsl" ?>
+<!DOCTYPE root SYSTEM "dtd_xml/lista.dtd">
+<root>
+<lista>
+  <item id="0" titulo="Lomó de Cerdo" precio="3.99" categoria="Carnes">
+    <titulo>Lomó de Cerdo</titulo>
+    <categoria id="3" nombre="Carnes" recurso="recursos/categorias/categoria_3.png"><etiqueta>Categoría: Carnes</etiqueta></categoria>
+    <producto recurso="recursos/productos/lomo_cerdo_00.jpg"></producto>
+    <descripcion>Descripción: Pieza de lomó de cerdo marca Matador.</descripcion>
+    <unidades>Unidades: 1</unidades>
+    <precio>Precio: $3.99</precio>
+    <marca>Marca: Matador</marca>
+    <costo>Costo: $3.99</costo>
+  </item>
+  <item id="1" titulo="Atún Enlatado" precio="1.75" categoria="Enlatados">
+    <titulo>Atún Enlatado</titulo>
+    <categoria id="0" nombre="Enlatados" recurso="recursos/categorias/categoria_0.png"><etiqueta>Categoría: Enlatados</etiqueta></categoria>
+    <producto recurso="recursos/productos/atun_enlatado_00.jpg"></producto>
+    <descripcion>Descripción: Atun en agua enlatado, marca Calvo, 140g la unidad.</descripcion>
+    <unidades>Unidades: 3</unidades>
+    <precio>Precio: $1.75</precio>
+    <marca>Marca: Calvo</marca>
+    <costo>Costo: $5.25</costo>
+  </item>
+  <item id="2" titulo="Cartón de Leche" precio="1.50" categoria="Lacteos">
+    <titulo>Cartón de Leche</titulo>
+    <categoria id="2" nombre="Lacteos" recurso="recursos/categorias/categoria_2.png"><etiqueta>Categoría: Lacteos</etiqueta></categoria>
+    <producto recurso="recursos/productos/carton_leche_00.jpg"></producto>
+    <descripcion>Descripción: Cartón de leche de un litro marca Milk Mu.</descripcion>
+    <unidades>Unidades: 2</unidades>
+    <precio>Precio: $1.50</precio>
+    <marca>Marca: Milk Mu</marca>
+    <costo>Costo: $3</costo>
+  </item>
+  <item id="3" titulo="Arroz Natural" precio="1.25" categoria="Granos">
+    <titulo>Arroz Natural</titulo>
+    <categoria id="1" nombre="Granos" recurso="recursos/categorias/categoria_1.png"><etiqueta>Categoría: Granos</etiqueta></categoria>
+    <producto recurso="recursos/productos/arroz_00.jpg"></producto>
+    <descripcion>Descripción: Libra de arroz natural, distribidora local.</descripcion>
+    <unidades>Unidades: 3</unidades>
+    <precio>Precio: $1.25</precio>
+    <marca>Marca: Distribuidora local</marca>
+    <costo>Costo: $3.75</costo>
+  </item>
+</lista>
+<total>Costo total: $15.99</total>
+<cantidad_total>Unidades totales: 9</cantidad_total>
+</root>
